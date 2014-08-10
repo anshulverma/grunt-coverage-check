@@ -1,0 +1,39 @@
+{
+  "name": "grunt-coverage-check",
+  "version": "0.0.1",
+  "description": "A grunt plugin to enforce coverage thresholds",
+  "private": false,
+  "author": "Anshul Verma <anshul.verma86@gmail.com>",
+  "main": "Gruntfile.js",
+  "maintainers": [
+    "Anshul Verma <anshul.verma86@gmail.com>"
+  ],
+  "scripts": {
+    "test": "grunt test",
+    "prepublish": "grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anshulverma/grunt-coverage-check"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "bundledDependencies": [],
+  "keywords": [
+    "coffee-script",
+    "grunt",
+    "coverage",
+    "plugin",
+    "mocha"
+  ],
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.1.65"
+  },
+  "directories": {
+    "doc": "./docs",
+    "lib": "./lib"
+  }
+}
